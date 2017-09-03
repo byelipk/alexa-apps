@@ -1,7 +1,6 @@
 {
   "main": "server.js",
   "devDependencies": {
-    "alexa-app-server": "^3.0.1",
-    "chatskills": "^0.0.20"
+    "alexa-app-server": "^3.0.1"
   }
 }

@@ -111,6 +111,13 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
+chatskills@^0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/chatskills/-/chatskills-0.0.20.tgz#c108e8a1a18bcf734d9bf221ba2d08fd0b990a5a"
+  dependencies:
+    alexa-app "^4.1.0"
+    readline-sync "*"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -393,6 +400,10 @@ raw-body@~2.2.0:
     bytes "2.4.0"
     iconv-lite "0.4.15"
     unpipe "1.0.0"
+
+readline-sync@*, readline-sync@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.7.tgz#001bfdd4c06110c3c084c63bf7c6a56022213f30"
 
 request@^2.67.0:
   version "2.81.0"
