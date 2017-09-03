@@ -54,30 +54,30 @@ hello.intent(
 module.exports = hello;
 
 // Console client
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-  prompt: "HELLO-ALEXA> "
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+//   prompt: "HELLO-ALEXA> "
+// });
 
-chatskills.launch(hello);
-
-console.log(hello.utterances());
-
-rl.prompt();
-
-rl
-  .on("line", line => {
-    chatskills.respond(line, response => {
-      if (response) {
-        console.log(response);
-      } else {
-        console.log("Sorry, I don't understand.");
-      }
-      rl.prompt();
-    });
-  })
-  .on("close", () => {
-    console.log("Have a great day!");
-    process.exit(0);
-  });
+// chatskills.launch(hello);
+//
+// console.log(hello.utterances());
+//
+// rl.prompt();
+//
+// rl
+//   .on("line", line => {
+//     chatskills.respond(line, response => {
+//       if (response) {
+//         console.log(response);
+//       } else {
+//         console.log("Sorry, I don't understand.");
+//       }
+//       rl.prompt();
+//     });
+//   })
+//   .on("close", () => {
+//     console.log("Have a great day!");
+//     process.exit(0);
+//   });
