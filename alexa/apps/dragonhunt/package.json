@@ -1,0 +1,12 @@
+{
+  "name": "dragonhunt",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "alexa-app": "^4.1.0"
+  },
+  "dependencies": {
+    "chatskills": "^0.0.20",
+    "readline-sync": "^1.4.7"
+  }
+}
