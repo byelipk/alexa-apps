@@ -1,0 +1,8 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "alexa-app": "^4.1.0"
+  }
+}
