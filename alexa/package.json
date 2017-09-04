@@ -1,6 +1,12 @@
 {
   "main": "server.js",
   "devDependencies": {
-    "alexa-app-server": "^3.0.1"
+    "alexa-app-server": "^3.0.1",
+    "chatskills": "*",
+    "readline-sync": "*",
+    "xml2js": "*",
+    "request": "*",
+    "deasync": "*",
+    "alexa-app": "^2.1.0",
   }
 }

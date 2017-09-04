@@ -1,0 +1,14 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^4.1.0",
+    "chatskills": "*",
+    "readline-sync": "*",
+    "xml2js": "*",
+    "request": "*",
+    "deasync": "*"
+  }
+}
